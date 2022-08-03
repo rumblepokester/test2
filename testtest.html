@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="uft-8" name="viewport" content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1'/ >
+  <title>艾倫的網站</title>
+  <style type="text/css">
+
+.word1{
+       position:absolute;top:500px;
+	   position:absolute;left:300px;
+	   font-size:40px;
+	   font-weight:bold;
+	   color:#2D7DEB;
+   
+}
+
+.word2{
+       position:absolute;top:600px;
+	   position:absolute;right:50px;
+	   font-size:40px;
+	   font-weight:bold;
+	   color:#2D7DEB;
+}
+
+
+
+.main1{
+     display:flex;
+	 position:fixed;top:0px;
+	 width:100%;
+	 color:white;
+     background-color:#2D7DEB;
+	 padding:20px;
+	 align-items:center;
+	 justify-content:flex-end;
+}
+
+.main2{
+       display:flex;
+       justify-content:center;
+	   text-align:center;
+}
+  
+
+.title2{
+       flex:none;
+	   width:600px;
+}
+
+.title2 a{
+       color:white;
+       text-decoration:none;
+}
+
+.title3{
+        position:fixed;top:0px;;left:20px;
+        font-size:15px;
+		font-weight:bold;
+	    color:white;
+}  
+
+.headphoto{
+           position:fixed;top:30px;left:10px;
+		   height:90px;
+		   width:90px;
+}
+
+.headphoto2{
+            flex:none;
+            width:500px;
+			height:380px;
+
+
+}
+
+.introduce{
+           flex:none;
+           color:#2D7DEB;
+		   font-weight:bold;
+		   font-size:30px;
+}
+
+.paragraphphoto{
+    padding:10px;
+    width:100px;
+    height:100px;	
+}
+
+.paragraph1{
+    color:#2D7DEB;
+	font-weight:bold;
+	font-size:20px;
+}
+
+paragraph2{
+    font-weight:bold;
+}
+
+.titleblock{
+            border-bottom-style:dashed;
+            background-color:#FF9858;
+			border-top-left-radius:15px;
+			border-top-right-radius:15px;
+			height:100px;
+			width:500px;
+	        display:flex;
+	        justify-content:center;
+	        text-align:center;
+            align-items:center;
+			font-weight:bold;
+			font-size:30px;
+			letter-spacing:5px;
+}
+  
+
+.block{
+      background-color:#729DD8;
+      height:525px;
+	  display:flex;
+	  justify-content:center;
+	  text-align:center;
+      align-items:center;
+	  
+}
+
+.box{
+      background-color:white;
+	  height:auto;
+	  width:200px;
+	  margin:10px;
+	  flex:none;
+	  padding:50px;
+	  line-height:25px;
+}
+
+.titlebutton{
+      color:#2D7DEB;
+	  font-weight:bold;
+	  font-size:30px;
+
+}
+
+.content{
+        width:1350px;
+        display:none;
+        font-weight:bold;
+		font-size:20px;
+		margin-left:50px;
+		margin-right:150px;
+
+}
+
+.point{
+        color:red;
+		font-weight:bold;
+		font-size:25px;
+
+}
+
+.company{
+    color:#2D7DEB;
+	font-weight:bold;
+	font-size:20px;
+}
+
+@media screen and (max-width:1000px){
+
+.cool{background-color:green;width:100%;}
+.box{flex:auto;padding:10px;}
+
+}
+  </style>
+  
+<script type="text/javascript">
+
+alert("你好")
+  
+var money=prompt('提領金額','0');
+
+if(money<20000){alert("領到錢了")}
+
+else if(money<30000){alert("領了好多錢")}
+
+else {alert("不能領那麼多")}
+
+
+function togglemenu(number){
+
+    var menu=document.getElementById("menu-"+number);
+	if(menu.style.display=='block'){menu.style.display='none';}
+    else {menu.style.display='block';}
+     
+} 
+
+</script>
+  
+</head>
+
+<body style="margin:0px";>
+
+<img src='sunrise.jpg' height='auto'; width='100%'; style="opacity:0.5";>
+
+  <div class="word1">"不跨出這一步</div>
+  <div class="word2">你永遠不知道自己的極限在哪裡"</div>
+
+
+<main class="main1">
+
+  <h1 class='title2'><a href="#jump">我想加入WeHelp軟體工程師扶持企劃！</a></h1>
+  
+</main>  
+
+<h1 class="title3">ALLENHU</h1>
+
+<img src="headphoto.jpg" class="headphoto">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<main class="main2">
+
+   <img src="headphoto2.jpg" class="headphoto2">
+  
+</main>
+
+<br>
+<br>
+
+<main class="main2">
+
+   <div class="introduce">我是胡於倫(Allen)<div> 
+   <div class="introduce">目前在餐廳擔任過一天是一天但還算快樂的外場服務生<div>   
+  
+</main>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<main class="main2">
+
+    <div class="titleblock">個人簡介</div>
+
+</main>
+
+
+<div class="block">
+
+  <div class='box'>
+  
+    <img src="brain.png" class="paragraphphoto"> 
+    <div class='paragraph1'>慢熟的邏輯腦</div>
+	<br>
+	<br>
+	<div class='paragraph2'>個性比較悶騷，熟了之後蠻好相處的，不是個非常感性的人，傾向以務實的方式看事情與處理問題，比起感人肺腑的發言，客觀的數據評估更能說服我</div>
+  
+  </div>
+
+  <div class='box'>
+  
+    <img src="wind.png" class="paragraphphoto">  
+    <div class='paragraph1'>喜歡自由吹風的暈車仔</div>
+	<br>
+	<br>
+	<div class='paragraph2'>不善常搭交通工具，坐車坐船坐飛機甚至坐捷運身體都會進入節能模式，也因此很喜歡騎腳踏車，目前上下班與休假出門大多都是用其交通，吹風的感覺超舒服的！</div>
+	
+  </div>
+  
+  <div class='box'>
+  
+    <img src="mustache.png" class="paragraphphoto">
+    <div class='paragraph1'>留個小鬍子的服務生</div>
+	<br>
+	<br>
+	<div class='paragraph2'>我喜歡熱情大方的款待客人，很享受這樣開心熱鬧的工作環境，喜歡留一點鬍子，不過我很看感覺，有時會放任它生長，但有時也會一口氣全部刮掉</div>
+	
+  </div>
+
+</div>
+
+<br id="jump">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<button onclick="togglemenu(1);" class="titlebutton">為什麼想成為前端、後端、或全端工程師？</button>
+
+  <div id='menu-1' class="content">
+     <br>
+	   <br>
+		       平常不論是求職、買東西、找餐廳等等，比起用fb或ig等社群搜尋，我更喜歡直接找網站，覺得社群呈現出來的版面都一樣，看不出甚麼特色，也會很自然的用網站的美觀與實用性來對企業做評價。
+       <br>
+     <br>
+               契機是當初進入現在的公司前，就覺得公司的網站有點陽春，而有一天休假的時候就浮出了一個很簡單的想法：
+     <br>
+	   <br>
+         <span class="point">"如果可以把公司的網站設計的更好看，好像蠻有趣的"</span>		   
+       <br>
+	 <br>
+		       為此開始搜尋網頁設計的相關資訊，開始寫很簡單的HTML與CSS，覺得一點一滴的學習，也有對應的成效，很有成就感也很有趣，進而開始認識前端、後端工程師的工作內容，期許自己能有這樣的專業技能。
+     <br>
+     <br>			
+			   
+			   
+  </div>
+</div>
+
+<br>
+<br>
+
+
+<div>  
+<button onclick="togglemenu(2);" class="titlebutton">為了成為軟體工程師，曾經做過什麼努力？若有具體的專案作品請分享給我們。</button>
+
+  <div id='menu-2' class="content">
+     <br>
+	    <br>
+		       其實是最近一兩個月才開始學習，目前也以彭彭老師的教學影片做為學習重心，也多看看不同教學網站，盡量用下班或休假的時間看影片與實作，除此之外也多了解職場前輩在端傳媒、linkedin或youtube對於工程師職業的分享，具體的專案作品，就是我這一個自我介紹的網站了吧。
+			   
+        <br>
+     <br>
+	
+  </div>
+</div>
+
+<br>
+<br>
+ 
+<div> 
+<button onclick="togglemenu(3);" class="titlebutton">如果參與這個計畫，會怎麼安排學習時間？</button>  
+
+  <div id='menu-3' class="content">
+     <br>
+	    <br>
+		      目前是在餐飲業做正職，如果確定申請上 WeHelp計畫 ，會與公司申請轉為PT，並以計畫內容為完全重心，這半年會全力的投入學習，如有空閒時間才會與公司協調排班。
+			   
+        <br>
+     <br>	 
+
+  </div>
+</div>  
+ 
+<br>
+<br> 
+ 
+<div> 
+<button onclick="togglemenu(4);" class="titlebutton">是否有想要加入的軟體公司？為什麼想加入該公司？</button>  
+
+  <div id='menu-4' class="content">
+     <br>
+	    <br>
+		      工作環境與公司選擇，喜歡創新和有挑戰的領域，比起當像機器人的員工，我想成為和團隊一同發想突破的一員，工作內容會傾向產品開發類型的，目前看中有興趣的公司名單與職稱如下 (截至7/22)
+			  
+			   
+			   <ul>
+			   
+			   <li class="company">聰明學習股份有限公司 - 網頁前端開發工程師</li>
+			      <br>    
+					 <div>富有教育理想，期許不只是工作內容，更能貢獻所有助於公司的想法，感覺是充滿積極與未來的新創公司，</div> 
+                  <br>			   
+			   <li class="company">杰倫智能科技股份有限公司 - 網頁前端開發工程師</li>
+			      <br>    
+					 <div>現今潮流的AI與互聯網，廣納願意接受挑戰且抗壓的人材，提供兩岸交流與多方學習機會</div> 
+                  <br>
+               <li class="company">維肯媒體股份有限公司 - 網頁前端工程師</li>
+                  <br>    
+					 <div>能接觸多樣行業的數位化行銷公司，鼓勵創意、思考，理想的薪資與貌似可以和同事一起打game的工作環境</div> 
+                  <br>			   
+			   
+			   </ul>	 
+  </div>
+</div>
+
+<br>
+<br>
+
+<div>  
+<button onclick="togglemenu(5);" class="titlebutton">請描述一件你曾經碰到最困難的事情，如何克服？</button>  
+
+  <div id='menu-5' class="content">
+     <br>
+	    <br>
+		      <ul>還沒想到</ul>
+			   
+        <br>
+     <br>	 
+
+  </div>
+</div>  
+
+<br>
+<br>
+
+<div>  
+<button onclick="togglemenu(6);" class="titlebutton">從上次提出申請至今，多做了哪些努力？</button>  
+
+  <div id='menu-6' class="content">
+     <br>
+	    <br>
+		      這次是我第一次申請！
+			   
+        <br>
+     <br>	 
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div>  
+<button onclick="togglemenu(7);" class="titlebutton">想要對我們說的事情？</button>  
+
+  <div id='menu-7' class="content">
+     <br>
+	    <br>
+		      還沒想到
+			   
+        <br>
+     <br>	 
+
+  </div>
+</div>  
+  
+  
+
+
+  
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>
